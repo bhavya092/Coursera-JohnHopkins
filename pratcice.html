@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta charset="utf-8">
+<title>Responsive Layout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+  margin:0.31%;
+}
+
+h1{
+	text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+
+.row {
+  width: 100%;
+
+}
+
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+     background-color: lightgray;
+      border: 2px solid black;
+}
+
+  .col-lg-4
+   {
+    width: 32.4%;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    background-color: lightgray;
+    border: 2px solid black;
+  }
+
+  .col-md-6
+   {
+    width: 45%;
+	}  
+  .col-md-12 
+  {
+    width: 90%; 
+ 	}
+
+}
+
+
+
+div#box1{
+	position: relative;
+	padding:5px 5px 5px 5px;
+	background-color: lightgray;
+	border-width: 2px;
+	border-color: black;
+	margin-bottom: 10px;
+}
+
+
+#item1{
+	position: relative;
+	top:0px;
+	right:0px;
+   background-color: red;
+   color: white;
+   float: right;
+   padding: 8px;
+   border:2px solid black;
+   margin:5px;
+   clear:left;
+
+}
+#item2{
+	position: relative;
+	top:0px;
+	right:0px;
+	background-color: yellow;
+	color:black;
+	float: right;
+	padding:8px;
+	border:2px solid black;
+	 margin:5px;
+}
+#item3{
+	position: relative;
+	top:0px;
+	right:0px;
+	background-color: blue;
+	color:white;
+	float:right;
+	padding:8px;
+	border:2px solid black;
+	margin:5px;
+}
+div#p3{
+	clear:right;
+	background-color: lightgray;
+}
+
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div class="row">
+</div>
+
+
+
+  <div class="col-lg-4 col-md-6">
+  	<div id="box1">
+  		<p id="item1">
+  			SANDWHICH
+  		</p>
+  	    <div id="p3">
+		This item is too deliciuos .and for sure you are going to love this, this is because i have made it with love just for you. and also i put my secret ingredients in it which makes it a lot more tatsy than you can thunk. but howevevr i have kept the price low so that yall can eat this and have lots and lots of fun. enjoy.
+	</div>
+  	</div>
+  </div>
+  	 
+
+
+
+
+  <div class="col-lg-4 col-md-6">
+  	
+  	<div id="box1">
+  	<p id="item2">
+  			PIZZA
+  	</p>
+  	<div id="p3">
+		This item is too deliciuos .and for sure you are going to love this, this is because i have made it with love just for you. and also i put my secret ingredients in it which makes it a lot more tatsy than you can thunk. but howevevr i have kept the price low so that yall can eat this and have lots and lots of fun. enjoy.
+  	</div>
+  </div>
+</div>
+
+
+
+  <div class="col-lg-4 col-md-12">
+  	<div id="box1">
+  	<p id="item3">
+  		BURGER
+  	<p>
+  	<div id="p3">
+  		This item is too deliciuos .and for sure you are going to love this, this is because i have made it with love just for you. and also i put my secret ingredients in it which makes it a lot more tatsy than you can thunk. but howevevr i have kept the price low so that yall can eat this and have lots and lots of fun. enjoy.
+  
+ </div>
+  </div>		
+ </div>
+
+
+
+
+</body>
+
+

@@ -1,0 +1,103 @@
+
+
+* {
+  box-sizing: border-box;
+  margin:0.31%;
+}
+
+h1{
+	text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+
+.row {
+  width: 100%;
+
+}
+
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+     background-color: lightgray;
+      border: 2px solid black;
+}
+
+  .col-lg-4
+   {
+    width: 32.4%;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    background-color: lightgray;
+    border: 2px solid black;
+  }
+
+  .col-md-6
+   {
+    width: 45%;
+	}  
+  .col-md-12 
+  {
+    width: 90%; 
+ 	}
+
+}
+
+
+
+div#box1{
+	position: relative;
+	padding:5px 5px 5px 5px;
+	background-color: lightgray;
+	border-width: 2px;
+	border-color: black;
+	margin-bottom: 10px;
+}
+
+
+#item1{
+	position: relative;
+	top:0px;
+	right:0px;
+   background-color: red;
+   color: white;
+   float: right;
+   padding: 8px;
+   border:2px solid black;
+   margin:5px;
+   clear:left;
+
+}
+#item2{
+	position: relative;
+	top:0px;
+	right:0px;
+	background-color: yellow;
+	color:black;
+	float: right;
+	padding:8px;
+	border:2px solid black;
+	 margin:5px;
+}
+#item3{
+	position: relative;
+	top:0px;
+	right:0px;
+	background-color: blue;
+	color:white;
+	float:right;
+	padding:8px;
+	border:2px solid black;
+	margin:5px;
+}
+div#p3{
+	clear:right;
+	background-color: lightgray;
+}
+
